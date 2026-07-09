@@ -9,6 +9,7 @@ func Default() *Config {
 		},
 		Logging: LoggingConfig{
 			Level: "info",
+			Format: "text",
 		},
 		AI: AIConfig{
 			Provider: "openai",
