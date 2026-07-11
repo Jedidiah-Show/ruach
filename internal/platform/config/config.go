@@ -15,6 +15,7 @@ type AppConfig struct {
 
 type LoggingConfig struct {
 	Level string
+	Format string
 }
 
 type AIConfig struct {
